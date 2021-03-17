@@ -4,13 +4,14 @@
   "description": "Node JS sample API",
   "main": "app.js",
   "scripts": {
-    "start" : "nodemon express",
+    "start": "nodemon express",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jerry Peter",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.5.1"
   }
 }
